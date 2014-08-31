@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Frutiger;
+    src: url(../assets/fonts/Frutiger.ttf);
+}
+
+@font-face {
+    font-family: FrutigerLTStd;
+    src: url(../assets/fonts/FrutigerLTStd.otf);
+}
+
+body,html {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	padding: 0;
+	margin: 0;
+	background: url(../assets/images/background.jpg) no-repeat;
+	background-size: 100%;
+}
+
+header {
+	width: 100%;
+	height: 66px;
+	background: url(../assets/images/top-botton.png) no-repeat;
+	background-size: 100% 66px; 
+	font-family: "FrutigerLTStd";
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul li {
+	display: inline;
+	text-align: center;
+}
+
+.home img{
+	width: 30px;
+	height: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:after {
+	content: "";
+	border-right: 1px silver solid;
+	padding-left: 25px;
+}
+
+h1 {
+	position: relative;
+	margin-top: 30px;
+	left: 228px;
+	text-align: center;
+	font-size: 28px;
+	width: 590px;
+	font-family: 'Frutiger';
+	color: #432171;
+}
+
+.left_text {
+	position: relative;
+	top: 150px;
+	left: 111px;
+	font-size: 15px;
+	width: 100px;
+	font-family: 'FrutigerLTStd';
+}
+
+.graphics {
+	position: relative;
+	left: 214px;
+	height: 358px;
+	width: 593px;
+	margin-top: 70px;
+	border: 2px solid #4A2278;
+	border-radius: 0 20px 0 20px;
+	background-color: white;
+}
+
+.vertical_line {
+	position: relative;
+	height: 358px;
+	width: 50px;
+	background-color: #DAD9DA;
+	float: left;
+	border-radius: 0 0 0 20px;
+}
+
+.section_line{
+	list-style: none;
+	position: relative;
+	left: 36px;
+	top: 13px;
+	width: 25px;
+	font-size: 20px;
+	font-family: 'Frutiger';
+	line-height: 35px;
+}
+
+.horizontal_line {
+	border-top: 4px solid #4a2278;
+	position: relative;
+	width: 543px;
+	left: 50px;
+	top: 310px;
+	text-align: center;	
+}
+
+footer{
+	font-size: 14px;
+	float: left;
+	position: relative;
+	left: 100px;
+	width: 786px;
+	font-family: 'Frutiger';
+	color: #676A6B;
+}
